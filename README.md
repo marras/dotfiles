@@ -1,4 +1,4 @@
-# Dotfiles - config files for system programs (Mac OS X)
+# Dotfiles - config files for system programs (OS X)
 
 - git
 - ack
