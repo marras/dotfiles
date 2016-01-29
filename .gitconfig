@@ -1,0 +1,31 @@
+[user]
+  name = Marek Waligórski
+  email = marek.waligorski@netguru.pl
+[alias]
+  co = checkout
+  st = status
+  br = branch
+  df = diff
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Cblue %an %Creset' --abbrev-commit --date=relative
+  ld = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Cblue %an %Creset' --abbrev-commit --date=relative --color-words -i -p
+  amend = commit --amend
+  pr = pull --rebase
+  date = show -s --format=%ci
+  head = rev-parse HEAD
+[help]
+  autocorrect = 1
+[color]
+  ui = true
+  diff = auto
+  status = auto
+  branch = auto
+[core]
+  excludesfile = ~/.gitignore
+  editor = vim
+  autocrlf = input
+[apply]
+  whitespace = nowarn
+[format]
+  pretty = %C(yellow)%h%Creset %s %C(red)(%an, %cr)%Creset
+[push]
+  default = simple
