@@ -650,6 +650,13 @@
 					<key>Text</key>
 					<string>0x7f</string>
 				</dict>
+				<key>0x68-0x40000</key>
+				<dict>
+					<key>Action</key>
+					<integer>10</integer>
+					<key>Text</key>
+					<string>[104;5u</string>
+				</dict>
 				<key>0x9-0x40000</key>
 				<dict>
 					<key>Action</key>
@@ -1075,7 +1082,7 @@
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>454234661.04517299</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>475676640.56022602</real>
+	<real>476033885.818582</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -1142,7 +1149,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-01-29T12:21:28Z</date>
+	<date>2016-02-01T17:58:54Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Secure Input</key>
