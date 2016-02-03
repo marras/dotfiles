@@ -316,7 +316,7 @@
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErATGG
 		</data>
-		<string>302</string>
+		<string>319</string>
 	</array>
 	<key>NSTableView Hidden Columns KeyBingingTable</key>
 	<array/>
@@ -327,12 +327,14 @@
 		<key>Close</key>
 		<string>@~w</string>
 	</dict>
+	<key>NSWindow Frame NSFontPanel</key>
+	<string>701 137 605 279 0 0 1440 877 </string>
 	<key>NSWindow Frame Preferences</key>
 	<string>324 204 924 485 0 0 1440 877 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>99 294 592 584 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 4 1440 873 0 0 1440 877 </string>
+	<string>0 159 1440 718 0 0 1440 877 </string>
 	<key>NeverWarnAboutShortLivedSessions_7945D36E-08D5-4706-8C00-20E29597E3C0</key>
 	<true/>
 	<key>New Bookmarks</key>
@@ -1082,7 +1084,7 @@
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>454234661.04517299</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>476033885.818582</real>
+	<real>476203640.37799102</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -1149,7 +1151,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-02-01T17:58:54Z</date>
+	<date>2016-02-03T14:44:30Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Secure Input</key>
