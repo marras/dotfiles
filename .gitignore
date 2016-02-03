@@ -39,5 +39,5 @@ Icon?
 ehthumbs.db
 Thumbs.db
 
-nvim/bundle
 nvim/tmp
+nvim/plugged
