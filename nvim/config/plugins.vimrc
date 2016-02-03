@@ -20,7 +20,7 @@ Plug 'tpope/vim-speeddating'
 
 Plug 'mileszs/ack.vim'
 
-Plug 'vim-scripts/vim-yankring'
+Plug 'vim-scripts/YankRing.vim'
 
 Plug 'michaeljsmith/vim-indent-object'
 let g:indentobject_meaningful_indentation = ["haml", "sass", "python", "yaml", "markdown"]
@@ -37,5 +37,6 @@ let g:syntastic_enable_signs = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_eruby_ruby_quiet_messages = {'regex': 'possibly useless use of a variable in void context'}
+let g:syntastic_javascript_checkers = ['eslint']
 
 call plug#end()
