@@ -2,7 +2,7 @@
 " Author: marras <http://github.com/marras>
 " Loosely based on Zaiste's Vimified, simplified & adjusted to NeoVim
 
-let g:packages = ['general', 'fancy', 'os', 'coding', 'ruby', 'html', 'css', 'js', 'clojure', 'haskell', 'color']
+let g:packages = ['ruby', 'html', 'js'] " 'clojure', 'haskell'
 
 source $HOME/.config/nvim/config/general.vimrc
 source $HOME/.config/nvim/config/plugins.vimrc
