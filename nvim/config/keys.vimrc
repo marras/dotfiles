@@ -15,12 +15,6 @@ noremap <C-l>  <C-w>l
 " stolen from Steve Losh
 cmap w!! w !sudo tee % >/dev/null
 
-" Bubbling lines
-nmap <C-Up> [e
-nmap <C-Down> ]e
-vmap <C-Up> [egv
-vmap <C-Down> ]egv
-
 set pastetoggle=<F2>
 
 " remove current buffer without closing window
