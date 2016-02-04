@@ -11,6 +11,12 @@ noremap <C-j>  <C-w>j
 noremap <C-k>  <C-w>k
 noremap <C-l>  <C-w>l
 
+" Decrease current window size: + / -
+if bufwinnr(1)
+  map + <C-W>+
+  map - <C-W>-
+endif
+
 " w!! to write a file as sudo
 " stolen from Steve Losh
 cmap w!! w !sudo tee % >/dev/null
