@@ -5,6 +5,7 @@ Plug 'scrooloose/nerdcommenter'
 
 Plug 'kien/ctrlp.vim'
 let g:ctrlp_max_files=0
+let g:ctrlp_show_hidden = 1
 let g:ctrlp_custom_ignore='.git$\|^tmp/\|log$\|^public\|node_modules\|DS_Store'
 
 Plug 'flazz/vim-colorschemes'
