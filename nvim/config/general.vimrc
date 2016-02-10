@@ -37,12 +37,12 @@ set matchtime=2
 
 " White characters
 set autoindent
-set tabstop=4 
+set tabstop=2
 set textwidth=80
-set shiftwidth=4 
-set softtabstop=4
+set shiftwidth=2
+set softtabstop=2
 set expandtab
-set wrap 
+set wrap
 set formatoptions=qrn1
 set novisualbell  " use the sound
 
