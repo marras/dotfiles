@@ -77,12 +77,12 @@ vnoremap > >gv
 nnoremap / /\v
 vnoremap / /\v
 
-set ignorecase 
+set ignorecase
 set smartcase
-set showmatch 
+set showmatch
 set gdefault " substitute globally by default
 set hlsearch
 
-" Wildcars
-set wildignore=.svn,CVS,.git,.hg,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.png,*.xpm,*.gif,.DS_Store,*.aux,*.out,*.toc
+" Wildcards
+set wildignore=.svn,CVS,.git,.hg,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.png,*.xpm,*.gif,.DS_Store,*.aux,*.out,*.toc,public,chef/cookbooks
 set wildmenu
