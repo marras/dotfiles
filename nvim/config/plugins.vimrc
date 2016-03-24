@@ -41,5 +41,7 @@ let g:syntastic_eruby_ruby_quiet_messages = {'regex': 'possibly useless use of a
 let g:syntastic_javascript_checkers = ['eslint']
 
 Plug 'isRuslan/vim-es6'
+Plug 'mxw/vim-jsx'
+let g:jsx_ext_required = 0 " Allow JSX in normal JS files
 
 call plug#end()
