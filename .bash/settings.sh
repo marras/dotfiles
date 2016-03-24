@@ -19,7 +19,7 @@ export BUNDLER_EDITOR='vim'
 [[ -f `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
 
 # Android SDK
-export ANDROID_HOME=/usr/local/opt/android-sdk
+export ANDROID_HOME=/Users/marek/Library/Android/sdk
 
 export LANG="en_US.UTF-8"
 export LC_ALL=$LANG

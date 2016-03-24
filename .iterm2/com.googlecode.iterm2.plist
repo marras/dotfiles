@@ -5,7 +5,7 @@
 	<key>AdjustWindowForFontSizeChange</key>
 	<true/>
 	<key>AllowClipboardAccess</key>
-	<false/>
+	<true/>
 	<key>AnimateDimming</key>
 	<true/>
 	<key>AppleAntiAliasingThreshold</key>
@@ -1084,7 +1084,7 @@
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>454234661.04517299</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>476203640.37799102</real>
+	<real>477499135.35621202</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -1151,7 +1151,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-02-03T14:44:30Z</date>
+	<date>2016-02-18T11:10:49Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Secure Input</key>
