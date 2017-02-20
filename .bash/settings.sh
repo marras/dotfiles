@@ -20,6 +20,7 @@ export BUNDLER_EDITOR='vim'
 
 # Android SDK
 export ANDROID_HOME=/Users/marek/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 
 export LANG="en_US.UTF-8"
 export LC_ALL=$LANG
