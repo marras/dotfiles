@@ -1,6 +1,6 @@
 [user]
   name = Marek Waligórski
-  email = marek.waligorski@netguru.pl
+  email = marek@brainsandbeards.com
 [alias]
   co = checkout
   st = status
@@ -12,6 +12,7 @@
   pr = pull --rebase
   date = show -s --format=%ci
   head = rev-parse HEAD
+
 [help]
   autocorrect = 1
 [color]
@@ -29,3 +30,14 @@
   pretty = %C(yellow)%h%Creset %s %C(red)(%an, %cr)%Creset
 [push]
   default = simple
+[merge]
+  tool = p4mergetool
+[mergetool "p4mergetool"]
+  cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge $PWD/$BASE $PWD/$REMOTE $PWD/$LOCAL $PWD/$MERGED
+  trustExitCode = false
+[mergetool]
+  keepBackup = false
+[diff]
+  tool = p4mergetool
+[difftool "p4mergetool"]
+  cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge $LOCAL $REMOTE
