@@ -46,7 +46,7 @@ set wrap
 set formatoptions=qrn1
 set novisualbell  " use the sound
 
- autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 softtabstop=2
+autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 softtabstop=2
 
 " Keep search matches in the middle of the window.
 nnoremap n nzzzv
