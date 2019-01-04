@@ -39,3 +39,5 @@ alias gwc='git whatchanged -p --abbrev-commit --pretty=medium'
 alias gpp='git pull origin master; git push origin master'
 
 alias postgres.server='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log'
+
+alias npm-exec='PATH=$(npm bin):$PATH'
