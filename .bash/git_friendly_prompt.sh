@@ -4,10 +4,9 @@ git_dirty_flag() {
 }
 
 rvm_prompt() {
-    if [ -d .git ] ;
+    if [ -d .git ] && [ $RUBY_VERSION ];
     then
-        rvmp=$(~/.rvm/bin/rvm-prompt)
-        echo "[$rvmp]"
+       echo " [ruby-$RUBY_VERSION]"
     fi
 }
 story_id() {
@@ -20,7 +19,7 @@ story_id() {
 prompt_func() {
     previous_return_value=$?;
 
-    prompt="\n\[\033]0;${USER} ${PWD}\007\]\[${COLOR_BLUE}\]\w ${COLOR_RED}$(rvm_prompt)${COLOR_GRAY}$(__git_ps1)${COLOR_GREEN}\]$(git_dirty_flag) $(story_id)\[${COLOR_NC}\]\n"
+    prompt="\n\[\033]0;${USER} ${PWD}\007\]\[${COLOR_BLUE}\]\w${COLOR_RED}$(rvm_prompt)${COLOR_GRAY}$(__git_ps1)${COLOR_GREEN}\]$(git_dirty_flag) $(story_id)\[${COLOR_NC}\]\n"
 
     if test $previous_return_value -eq 0
     then
