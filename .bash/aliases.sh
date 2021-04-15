@@ -42,3 +42,4 @@ alias postgres.server='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postg
 
 alias npm-exec='PATH=$(npm bin):$PATH'
 alias nv='nvim'
+alias androlog='adb logcat *:E ReactNative:V ReactNativeJS:V'

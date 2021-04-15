@@ -1,6 +1,7 @@
 [user]
   name = Marek Waligórski
-  email = marek@brainsandbeards.com
+  email = marek.waligorski@gmail.com
+  signingkey = DFEEFC01CB02779EC36ECB9001BA0A394E108BF8
 [alias]
   co = checkout
   st = status
@@ -41,3 +42,13 @@
   tool = p4mergetool
 [difftool "p4mergetool"]
   cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge $LOCAL $REMOTE
+[include]
+	path = ~/.gitconfig-local
+[includeIf "gitdir:~/wojtas/"]
+	path = ~/.gitconfig-bnb
+[includeIf "gitdir:~/manomano/"]
+	path = ~/.gitconfig-manomano
+[gpg]
+	program = gpg
+[commit]
+	gpgsign = true

@@ -34,9 +34,11 @@
 ._*
 .Spotlight-V100
 .Trashes
-Icon?
+#Icon?
 ehthumbs.db
 Thumbs.db
 
 nvim/tmp
 nvim/plugged
+
+*.code-workspace
