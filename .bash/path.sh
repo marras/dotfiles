@@ -1,1 +1,1 @@
-export PATH=$PATH:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:/Users/marek/bin
+export PATH=$PATH:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:/Users/marek/bin:/Library/Frameworks/Firebird.framework/Versions/Current/Resources/bin:/usr/local/opt/llvm/bin
