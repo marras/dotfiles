@@ -26,3 +26,10 @@ export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 
 export LANG="en_US.UTF-8"
 export LC_ALL=$LANG
+export GPG_TTY=$(tty)
+
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+
+# Use llvm for compiling (required to build Ruby 2.7+)
+export LDFLAGS="-L/usr/local/opt/llvm/lib"
+export CPPFLAGS="-I/usr/local/opt/llvm/include"
